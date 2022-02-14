@@ -1,0 +1,1 @@
+console.log("4th type to display the output the content/output")

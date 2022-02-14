@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>9. Hollow pyramid star pattern</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            n=5;
+            for(i=1;i<=n;i++){
+                for(j=0;j<n-i;j++){
+                    document.write("&nbsp;&nbsp;")
+                }
+                for(k=0;k<2*i-1;k++)
+                {
+                    if(k==0||k==2*i-2){
+                        document.write("*")
+                    }
+                    else if(i==1||i==5){
+                        document.write("*")
+                    }
+                    else{
+                        document.write("&nbsp;&nbsp;")
+                    }
+                }
+                document.write("<br/>")
+            }
+
+        </script>
+    </body>
+</html>

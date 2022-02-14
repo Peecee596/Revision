@@ -1,0 +1,10 @@
+console.log(50)
+var cars=["volvo","nexas","tata","honda"]
+console.log(cars[0])
+console.log(cars[1])
+console.log(cars[2])
+console.log(cars[3])
+console.log("Arrays can hold multiple values in a single variable")
+console.log("We can access the values by reffering to an index number")
+console.log(cars[2]+" "+cars[1])
+console.log("if ther are 300 values and need to find 1 value so the option is only array")

@@ -1,0 +1,25 @@
+
+stetfull component
+class component
+import React ,{Component}, from 'react'
+export default class statefull extends component{
+    render(){
+        return(
+            <h1>Hi, M statefull components</h1>
+        )
+    }
+}
+
+
+
+stateless component
+functional
+
+import React from 'react'
+export default function stateless(){
+    return(
+        <div>
+        <h1>Hi, m stateless component</h1>
+        </div>
+    )
+}

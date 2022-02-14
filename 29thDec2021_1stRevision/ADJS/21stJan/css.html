@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.menu a{
+    position: relative;
+    /* overflow: hidden; */
+}
+.submenu{
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    
+    
+}
+a{
+    background-color: aqua;
+    font-size: large;
+    padding: 30px;
+}
+.menu:hover .submenu{
+    display: block;
+    top:10%;
+    z-index: 1;
+}
+</style>
+<body>
+    <div class="menu">
+        <a>Hi</a>
+        <div class="submenu">
+            <a>hello</a>
+        </div>
+    </div>
+</body>
+</html>
